@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 
 const args = process.argv.slice(2); // Get command-line arguments
 if (args.length === 0) {
-    console.error("❌ No email template specified. Usage: node sendEmail.js cardcorp_notifications/test.html");
+    console.error("❌ No email template specified. Usage: node sendEmail.js project/file_name.html");
     process.exit(1);
 }
 
@@ -31,7 +31,7 @@ const emails = process.env.TO_EMAILS.split(',');
 const mailOptions = {
     from: process.env.GMAIL_USER,
     to: emails,
-    subject: 'HTML Email Test',
+    subject: 'HTML Email Test 2',
     html: htmlContent
 };
 
