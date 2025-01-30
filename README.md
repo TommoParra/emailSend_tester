@@ -47,7 +47,7 @@ email-test/
 ### 4️⃣ Creating Email Templates
 Place your HTML templates inside the projects/ folder.
 
-## Example: `my_email_project/test.html`
+## Example: `projects/test.html`
 ```sh
 <h1 style="color:red;">🔥 Email Template Test</h1>
 <p>This is a test email using an HTML file.</p>
@@ -57,14 +57,14 @@ Place your HTML templates inside the projects/ folder.
 Run the following command:
 
 ```sh
-node sendEmail.js my_email_project/test.html
+node sendEmail.js projects/test.html
 ```
 
 ### 6️⃣ Troubleshooting
 ❌ Getting an authentication error?
 
-## Ensure you created an App Password for Gmail.
-## 🔗 Generate one here: https://myaccount.google.com/apppasswords
+# Ensure you created an App Password for Gmail.
+# 🔗 Generate one here: https://myaccount.google.com/apppasswords
 
 ## 📥 Email not arriving?
 Check your Spam folder.
