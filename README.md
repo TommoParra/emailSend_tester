@@ -9,6 +9,7 @@ Run this inside the project directory:
 
 ```sh
 npm install
+```sh
 
 ### 2️⃣ Create the .env File (Required)
 Before running the script, you must create a .env file in the project root:
