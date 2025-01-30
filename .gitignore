@@ -1,6 +1,12 @@
 # Ignore node modules
 node_modules/
 
+# Ignore everything inside `projects/` but keep the folder
+projects/*
+
+# Allow Git to track the `projects/` folder itself
+!projects/.gitkeep
+
 # Ignore environment variables
 .env
 

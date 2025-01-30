@@ -37,7 +37,7 @@ email-test/
 │── package-lock.json
 │── package.json
 │── sendEmail.js
-│── my_email_project/    # Stores email templates
+│── projects/    # Stores email templates
 │   ├── test.html              # Sample email template
 │── .env                       # Stores email credentials (DO NOT COMMIT)
 │── .gitignore                 # Prevents committing sensitive files
@@ -45,7 +45,7 @@ email-test/
 ```
 
 ### 4️⃣ Creating Email Templates
-Place your HTML templates inside the cardcorp_notifications/ folder.
+Place your HTML templates inside the projects/ folder.
 
 ## Example: `my_email_project/test.html`
 ```sh
