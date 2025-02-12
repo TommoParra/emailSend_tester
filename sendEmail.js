@@ -42,3 +42,5 @@ transporter.sendMail(mailOptions, (error, info) => {
         console.log('✅ Emails sent successfully! 🎉', info.response);
     }
 });
+
+/* automation is good */
