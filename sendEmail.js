@@ -31,7 +31,7 @@ const emails = process.env.TO_EMAILS.split(',');
 const mailOptions = {
     from: process.env.GMAIL_USER,
     to: emails,
-    subject: 'HTML Email Test 2',
+    subject: 'HTML Email Test 5',
     html: htmlContent
 };
 
