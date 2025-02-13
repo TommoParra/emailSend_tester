@@ -45,3 +45,4 @@ transporter.sendMail(mailOptions, (error, info) => {
 
 /* automation is good */
 /* but not so easy */
+/* closed PR */
